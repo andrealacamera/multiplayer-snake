@@ -5,8 +5,8 @@ Based on [this video](https://www.youtube.com/watch?v=ppcBIHv_ZPs).
 Added:
 - TailwindCSS framework (on the HTML page)
 - Player number (on the HTML page)
-- Score 
-- Level up every 5 points (5 foods)
+- Score (on the HTML page)
+- Level up every 5 points (server-side)
 
 ## client (Front-end side)
 
