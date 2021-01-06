@@ -3,7 +3,7 @@
 Based on [this video](https://www.youtube.com/watch?v=ppcBIHv_ZPs).
 
 Added:
-- Tailwind framework (on the HTML page)
+- TailwindCSS framework (on the HTML page)
 - Player number (on the HTML page)
 - Score 
 - Level up every 5 points (5 foods)
