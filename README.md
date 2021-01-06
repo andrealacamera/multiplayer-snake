@@ -1,6 +1,7 @@
 # Multiplayer Snake 
 
 Based on [this video](https://www.youtube.com/watch?v=ppcBIHv_ZPs).
+
 Added:
 - Tailwind framework (on the HTML page)
 - Player number (on the HTML page)
