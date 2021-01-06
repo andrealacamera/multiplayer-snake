@@ -16,7 +16,7 @@ function createGameState() {
                     y: 5,
                 },
                 vel: {
-                    x:0,
+                    x:1,
                     y:0,
                 },
                 score: 0,
