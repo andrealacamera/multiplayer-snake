@@ -1,6 +1,6 @@
 # Multiplayer Snake 
 
-Based on [this video] (https://www.youtube.com/watch?v=ppcBIHv_ZPs).
+Based on [this video](https://www.youtube.com/watch?v=ppcBIHv_ZPs).
 
 
 ## Frontend / Client side
