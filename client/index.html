@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Two-players Snake</title>
+</head>
+<body>
+    <section class="flex flex-col items-center justify-center h-screen w-screen">
+        <h1 class="text-3xl text-blue-700">TWO-PLAYERS SNAKE</h1>
+        <div id="initialScreen" class="flex flex-col bg-gray-200 p-4 m-2 items-center">
+            <button class="rounded border bg-blue-700 text-gray-200 hover:text-white px-2 py-1"
+            type="submit" id="newGameButton">New Game</button>
+            <div>OR </div>
+            <div>
+                <input type="text" placeholder="Enter Game Code" id="gameCodeInput" 
+                class="" />
+                <button class="rounded border bg-blue-700 text-gray-200 hover:text-white px-2 py-1"
+                type="submit" id="joinGameButton">Join Game</button>
+            </div> 
+
+        </div>
+        <div id="gameScreen" class="my-6 h-auto hidden">
+            <h3 class="text-red-500 text-xl">Your game code is: <span id="gameCodeDisplay"></span></h3>
+            <div class="flex flex-row justify-between">
+                <h1 class="text-3xl">Player #<span id="gamePlayer"></span></h1>
+                <h1 class="text-3xl">Score: <span id="gameScorePlayerOne">0</span>-<span id="gameScorePlayerTwo">0</span></h1>
+            </div>
+            <canvas id="canvas"></canvas>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
